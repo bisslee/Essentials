@@ -1,0 +1,1042 @@
+{
+  "TotalProfiles": 1,
+  "TotalUsages": 129,
+  "Profiles": [
+    {
+      "ClassName": "MappingConfig",
+      "Namespace": "KbSports.Core.Application.Mapping",
+      "Mappings": [
+        {
+          "SourceType": "dest =\u003E dest.Addresses",
+          "DestinationType": "opt =\u003E opt.MapFrom(src =\u003E src.Addresses)",
+          "LineNumber": 59
+        },
+        {
+          "SourceType": "dest =\u003E dest.CustomerName",
+          "DestinationType": "opt =\u003E opt.MapFrom(src =\u003E src.Customer.FullName)",
+          "LineNumber": 71
+        },
+        {
+          "SourceType": "dest =\u003E dest.Addresses",
+          "DestinationType": "opt =\u003E opt.MapFrom(src =\u003E src.Addresses)",
+          "LineNumber": 75
+        },
+        {
+          "SourceType": "dest =\u003E dest.Addresses",
+          "DestinationType": "opt =\u003E opt.MapFrom(src =\u003E src.Addresses)",
+          "LineNumber": 77
+        },
+        {
+          "SourceType": "dest =\u003E dest.ZipCode",
+          "DestinationType": "opt =\u003E opt.MapFrom(src =\u003E src.ZipCode)",
+          "LineNumber": 80
+        },
+        {
+          "SourceType": "dest =\u003E dest.Country",
+          "DestinationType": "opt =\u003E opt.MapFrom(src =\u003E src.Country)",
+          "LineNumber": 80
+        },
+        {
+          "SourceType": "dest =\u003E dest.State",
+          "DestinationType": "opt =\u003E opt.MapFrom(src =\u003E src.State)",
+          "LineNumber": 80
+        },
+        {
+          "SourceType": "dest =\u003E dest.City",
+          "DestinationType": "opt =\u003E opt.MapFrom(src =\u003E src.City)",
+          "LineNumber": 80
+        },
+        {
+          "SourceType": "dest =\u003E dest.Neighborhood",
+          "DestinationType": "opt =\u003E opt.MapFrom(src =\u003E src.Neighborhood)",
+          "LineNumber": 80
+        },
+        {
+          "SourceType": "dest =\u003E dest.Complement",
+          "DestinationType": "opt =\u003E opt.MapFrom(src =\u003E src.Complement)",
+          "LineNumber": 80
+        },
+        {
+          "SourceType": "dest =\u003E dest.Number",
+          "DestinationType": "opt =\u003E opt.MapFrom(src =\u003E src.Number)",
+          "LineNumber": 80
+        },
+        {
+          "SourceType": "dest =\u003E dest.Street",
+          "DestinationType": "opt =\u003E opt.MapFrom(src =\u003E src.Street)",
+          "LineNumber": 80
+        },
+        {
+          "SourceType": "dest =\u003E dest.Payments",
+          "DestinationType": "opt =\u003E opt.MapFrom(src =\u003E src.Payments)",
+          "LineNumber": 96
+        },
+        {
+          "SourceType": "dest =\u003E dest.Customer",
+          "DestinationType": "opt =\u003E opt.MapFrom(src =\u003E src.Customer)",
+          "LineNumber": 96
+        },
+        {
+          "SourceType": "dest =\u003E dest.CharacteristicType",
+          "DestinationType": "opt =\u003E opt.Ignore()",
+          "LineNumber": 158
+        },
+        {
+          "SourceType": "dest =\u003E dest.Championship",
+          "DestinationType": "opt =\u003E opt.Ignore()",
+          "LineNumber": 158
+        },
+        {
+          "SourceType": "dest =\u003E dest.CharacteristicType",
+          "DestinationType": "opt =\u003E opt.Ignore()",
+          "LineNumber": 166
+        },
+        {
+          "SourceType": "dest =\u003E dest.Club",
+          "DestinationType": "opt =\u003E opt.Ignore()",
+          "LineNumber": 166
+        },
+        {
+          "SourceType": "dest =\u003E dest.CharacteristicType",
+          "DestinationType": "opt =\u003E opt.Ignore()",
+          "LineNumber": 174
+        },
+        {
+          "SourceType": "dest =\u003E dest.Place",
+          "DestinationType": "opt =\u003E opt.Ignore()",
+          "LineNumber": 174
+        },
+        {
+          "SourceType": "dest =\u003E dest.CharacteristicType",
+          "DestinationType": "opt =\u003E opt.Ignore()",
+          "LineNumber": 191
+        },
+        {
+          "SourceType": "dest =\u003E dest.ChampionshipSeason",
+          "DestinationType": "opt =\u003E opt.Ignore()",
+          "LineNumber": 191
+        },
+        {
+          "SourceType": "dest =\u003E dest.CharacteristicType",
+          "DestinationType": "opt =\u003E opt.Ignore()",
+          "LineNumber": 199
+        },
+        {
+          "SourceType": "dest =\u003E dest.ChampionshipSeasonPhase",
+          "DestinationType": "opt =\u003E opt.Ignore()",
+          "LineNumber": 199
+        }
+      ]
+    }
+  ],
+  "Usages": [
+    {
+      "MethodName": "MapHealthChecks",
+      "Arguments": [
+        "\u0022/health\u0022"
+      ],
+      "LineNumber": 43
+    },
+    {
+      "MethodName": "MapControllers",
+      "Arguments": [],
+      "LineNumber": 52
+    },
+    {
+      "MethodName": "MapType",
+      "Arguments": [
+        "() =\u003E new OpenApiSchema { Type = \u0022string\u0022, Format = \u0022date-time\u0022 }"
+      ],
+      "LineNumber": 181
+    },
+    {
+      "MethodName": "MapType",
+      "Arguments": [
+        "() =\u003E new OpenApiSchema { Type = \u0022string\u0022, Format = \u0022date-time\u0022, Nullable = true }"
+      ],
+      "LineNumber": 182
+    },
+    {
+      "MethodName": "MapType",
+      "Arguments": [
+        "() =\u003E new OpenApiSchema { Type = \u0022string\u0022, Format = \u0022date\u0022 }"
+      ],
+      "LineNumber": 183
+    },
+    {
+      "MethodName": "MapType",
+      "Arguments": [
+        "() =\u003E new OpenApiSchema { Type = \u0022string\u0022, Format = \u0022date\u0022, Nullable = true }"
+      ],
+      "LineNumber": 184
+    },
+    {
+      "MethodName": "MapType",
+      "Arguments": [
+        "() =\u003E new OpenApiSchema { Type = \u0022string\u0022, Format = \u0022time\u0022 }"
+      ],
+      "LineNumber": 185
+    },
+    {
+      "MethodName": "MapType",
+      "Arguments": [
+        "() =\u003E new OpenApiSchema { Type = \u0022string\u0022, Format = \u0022time\u0022, Nullable = true }"
+      ],
+      "LineNumber": 186
+    },
+    {
+      "MethodName": "MapType",
+      "Arguments": [
+        "() =\u003E new OpenApiSchema { Type = \u0022string\u0022, Format = \u0022uuid\u0022 }"
+      ],
+      "LineNumber": 187
+    },
+    {
+      "MethodName": "MapType",
+      "Arguments": [
+        "() =\u003E new OpenApiSchema { Type = \u0022string\u0022, Format = \u0022uuid\u0022, Nullable = true }"
+      ],
+      "LineNumber": 188
+    },
+    {
+      "MethodName": "MapFrom",
+      "Arguments": [
+        "src =\u003E src.Addresses"
+      ],
+      "LineNumber": 60
+    },
+    {
+      "MethodName": "MapFrom",
+      "Arguments": [
+        "src =\u003E src.Customer.FullName"
+      ],
+      "LineNumber": 72
+    },
+    {
+      "MethodName": "MapFrom",
+      "Arguments": [
+        "src =\u003E src.Addresses"
+      ],
+      "LineNumber": 76
+    },
+    {
+      "MethodName": "MapFrom",
+      "Arguments": [
+        "src =\u003E src.Addresses"
+      ],
+      "LineNumber": 78
+    },
+    {
+      "MethodName": "ReverseMap",
+      "Arguments": [],
+      "LineNumber": 80
+    },
+    {
+      "MethodName": "ForMember",
+      "Arguments": [
+        "dest =\u003E dest.ZipCode",
+        "opt =\u003E opt.MapFrom(src =\u003E src.ZipCode)"
+      ],
+      "LineNumber": 80
+    },
+    {
+      "MethodName": "ForMember",
+      "Arguments": [
+        "dest =\u003E dest.Country",
+        "opt =\u003E opt.MapFrom(src =\u003E src.Country)"
+      ],
+      "LineNumber": 80
+    },
+    {
+      "MethodName": "ForMember",
+      "Arguments": [
+        "dest =\u003E dest.State",
+        "opt =\u003E opt.MapFrom(src =\u003E src.State)"
+      ],
+      "LineNumber": 80
+    },
+    {
+      "MethodName": "ForMember",
+      "Arguments": [
+        "dest =\u003E dest.City",
+        "opt =\u003E opt.MapFrom(src =\u003E src.City)"
+      ],
+      "LineNumber": 80
+    },
+    {
+      "MethodName": "ForMember",
+      "Arguments": [
+        "dest =\u003E dest.Neighborhood",
+        "opt =\u003E opt.MapFrom(src =\u003E src.Neighborhood)"
+      ],
+      "LineNumber": 80
+    },
+    {
+      "MethodName": "ForMember",
+      "Arguments": [
+        "dest =\u003E dest.Complement",
+        "opt =\u003E opt.MapFrom(src =\u003E src.Complement)"
+      ],
+      "LineNumber": 80
+    },
+    {
+      "MethodName": "ForMember",
+      "Arguments": [
+        "dest =\u003E dest.Number",
+        "opt =\u003E opt.MapFrom(src =\u003E src.Number)"
+      ],
+      "LineNumber": 80
+    },
+    {
+      "MethodName": "MapFrom",
+      "Arguments": [
+        "src =\u003E src.Street"
+      ],
+      "LineNumber": 81
+    },
+    {
+      "MethodName": "MapFrom",
+      "Arguments": [
+        "src =\u003E src.Number"
+      ],
+      "LineNumber": 82
+    },
+    {
+      "MethodName": "MapFrom",
+      "Arguments": [
+        "src =\u003E src.Complement"
+      ],
+      "LineNumber": 83
+    },
+    {
+      "MethodName": "MapFrom",
+      "Arguments": [
+        "src =\u003E src.Neighborhood"
+      ],
+      "LineNumber": 84
+    },
+    {
+      "MethodName": "MapFrom",
+      "Arguments": [
+        "src =\u003E src.City"
+      ],
+      "LineNumber": 85
+    },
+    {
+      "MethodName": "MapFrom",
+      "Arguments": [
+        "src =\u003E src.State"
+      ],
+      "LineNumber": 86
+    },
+    {
+      "MethodName": "MapFrom",
+      "Arguments": [
+        "src =\u003E src.Country"
+      ],
+      "LineNumber": 87
+    },
+    {
+      "MethodName": "MapFrom",
+      "Arguments": [
+        "src =\u003E src.ZipCode"
+      ],
+      "LineNumber": 88
+    },
+    {
+      "MethodName": "ForMember",
+      "Arguments": [
+        "dest =\u003E dest.Payments",
+        "opt =\u003E opt.MapFrom(src =\u003E src.Payments)"
+      ],
+      "LineNumber": 96
+    },
+    {
+      "MethodName": "MapFrom",
+      "Arguments": [
+        "src =\u003E src.Customer"
+      ],
+      "LineNumber": 97
+    },
+    {
+      "MethodName": "MapFrom",
+      "Arguments": [
+        "src =\u003E src.Payments"
+      ],
+      "LineNumber": 98
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "request"
+      ],
+      "LineNumber": 71
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "entity"
+      ],
+      "LineNumber": 86
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "request",
+        "existingAddress"
+      ],
+      "LineNumber": 79
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "existingAddress"
+      ],
+      "LineNumber": 93
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "existingAddress"
+      ],
+      "LineNumber": 80
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "newCategory"
+      ],
+      "LineNumber": 89
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "existingCategory"
+      ],
+      "LineNumber": 93
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "request"
+      ],
+      "LineNumber": 95
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "championshipCharacteristic"
+      ],
+      "LineNumber": 105
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "existingCharacteristic"
+      ],
+      "LineNumber": 115
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "championship"
+      ],
+      "LineNumber": 154
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "existingChampionship"
+      ],
+      "LineNumber": 117
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "request"
+      ],
+      "LineNumber": 93
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "championshipSeasonCharacteristic"
+      ],
+      "LineNumber": 103
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "request"
+      ],
+      "LineNumber": 88
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "championshipSeasonPhase"
+      ],
+      "LineNumber": 134
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "existingPhase"
+      ],
+      "LineNumber": 107
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "request"
+      ],
+      "LineNumber": 88
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "championshipSeason"
+      ],
+      "LineNumber": 133
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "existingSeason"
+      ],
+      "LineNumber": 104
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "request"
+      ],
+      "LineNumber": 68
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "characteristicType"
+      ],
+      "LineNumber": 78
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "existingCharacteristicType"
+      ],
+      "LineNumber": 90
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "request"
+      ],
+      "LineNumber": 94
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "clubCharacteristic"
+      ],
+      "LineNumber": 104
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "existingCharacteristic"
+      ],
+      "LineNumber": 122
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "club"
+      ],
+      "LineNumber": 131
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "existingClub"
+      ],
+      "LineNumber": 94
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "request"
+      ],
+      "LineNumber": 64
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "entity"
+      ],
+      "LineNumber": 94
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "characteristic"
+      ],
+      "LineNumber": 124
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "request",
+        "actualEntity"
+      ],
+      "LineNumber": 73
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "actualEntity"
+      ],
+      "LineNumber": 102
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "characteristic"
+      ],
+      "LineNumber": 94
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "characteristic"
+      ],
+      "LineNumber": 102
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "request"
+      ],
+      "LineNumber": 94
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "matchCharacteristic"
+      ],
+      "LineNumber": 104
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "match"
+      ],
+      "LineNumber": 168
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "existingMatch"
+      ],
+      "LineNumber": 131
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "request"
+      ],
+      "LineNumber": 68
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "modality"
+      ],
+      "LineNumber": 77
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "existingModality"
+      ],
+      "LineNumber": 89
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "payment"
+      ],
+      "LineNumber": 108
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "existingPayment"
+      ],
+      "LineNumber": 112
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "request"
+      ],
+      "LineNumber": 97
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "placeCharacteristic"
+      ],
+      "LineNumber": 106
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "existingCharacteristic"
+      ],
+      "LineNumber": 114
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "place"
+      ],
+      "LineNumber": 157
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "existingPlace"
+      ],
+      "LineNumber": 120
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "request"
+      ],
+      "LineNumber": 67
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "plan"
+      ],
+      "LineNumber": 77
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "existingPlan"
+      ],
+      "LineNumber": 95
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "user"
+      ],
+      "LineNumber": 83
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "existingUser"
+      ],
+      "LineNumber": 87
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "addresses ?? new List\u003CAddress\u003E()"
+      ],
+      "LineNumber": 91
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "address"
+      ],
+      "LineNumber": 69
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "categories"
+      ],
+      "LineNumber": 81
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "category"
+      ],
+      "LineNumber": 66
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "championshipCharacteristics"
+      ],
+      "LineNumber": 76
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "championshipCharacteristic"
+      ],
+      "LineNumber": 67
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "championships"
+      ],
+      "LineNumber": 70
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "championship"
+      ],
+      "LineNumber": 80
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "characteristics"
+      ],
+      "LineNumber": 83
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "championshipSeasonPhases"
+      ],
+      "LineNumber": 81
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "championshipSeasonPhase"
+      ],
+      "LineNumber": 85
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "characteristics"
+      ],
+      "LineNumber": 88
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "championshipSeasons"
+      ],
+      "LineNumber": 81
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "championshipSeason"
+      ],
+      "LineNumber": 85
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "characteristics"
+      ],
+      "LineNumber": 88
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "characteristicTypes"
+      ],
+      "LineNumber": 81
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "characteristicType"
+      ],
+      "LineNumber": 67
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "clubCharacteristics"
+      ],
+      "LineNumber": 81
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "clubCharacteristic"
+      ],
+      "LineNumber": 67
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "clubs"
+      ],
+      "LineNumber": 73
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "club"
+      ],
+      "LineNumber": 80
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "characteristics"
+      ],
+      "LineNumber": 83
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "customers"
+      ],
+      "LineNumber": 93
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "entity"
+      ],
+      "LineNumber": 69
+    },
+    {
+      "MethodName": "ToList",
+      "Arguments": [],
+      "LineNumber": 103
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "characteristic"
+      ],
+      "LineNumber": 105
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "matches"
+      ],
+      "LineNumber": 70
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "match"
+      ],
+      "LineNumber": 80
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "characteristics"
+      ],
+      "LineNumber": 83
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "modalities"
+      ],
+      "LineNumber": 81
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "modality"
+      ],
+      "LineNumber": 66
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "payments"
+      ],
+      "LineNumber": 70
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "payment"
+      ],
+      "LineNumber": 62
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "placeCharacteristics"
+      ],
+      "LineNumber": 80
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "placeCharacteristic"
+      ],
+      "LineNumber": 67
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "places"
+      ],
+      "LineNumber": 70
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "place"
+      ],
+      "LineNumber": 80
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "characteristics"
+      ],
+      "LineNumber": 83
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "plans"
+      ],
+      "LineNumber": 81
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "plan"
+      ],
+      "LineNumber": 66
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "users"
+      ],
+      "LineNumber": 70
+    },
+    {
+      "MethodName": "Map",
+      "Arguments": [
+        "user"
+      ],
+      "LineNumber": 61
+    }
+  ],
+  "GeneratedAt": "2025-10-25T22:07:25.3978204Z"
+}

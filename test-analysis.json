@@ -1,0 +1,36 @@
+{
+  "AnalyzedAt": "2025-10-25T21:53:21.2058307Z",
+  "Path": "samples",
+  "AutoMapper": {
+    "TotalFiles": 13,
+    "FilesWithReferences": 0,
+    "TotalProfiles": 0,
+    "TotalUsages": 0,
+    "Profiles": []
+  },
+  "MediatR": {
+    "TotalFiles": 13,
+    "FilesWithReferences": 0,
+    "TotalHandlers": 0,
+    "TotalNotificationHandlers": 3,
+    "TotalUsages": 11,
+    "Handlers": [],
+    "NotificationHandlers": [
+      {
+        "ClassName": "UserCreatedNotificationHandler",
+        "Namespace": "",
+        "NotificationType": "UserCreatedNotification"
+      },
+      {
+        "ClassName": "UserCreatedNotificationHandler",
+        "Namespace": "",
+        "NotificationType": "UserCreatedNotification"
+      },
+      {
+        "ClassName": "UserCreatedNotificationHandler",
+        "Namespace": "",
+        "NotificationType": "UserCreatedNotification"
+      }
+    ]
+  }
+}

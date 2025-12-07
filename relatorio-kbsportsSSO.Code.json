@@ -1,0 +1,603 @@
+{
+  "AnalyzedAt": "2025-10-25T21:57:44.7652403Z",
+  "Path": "P:\\proj\\KbSports\\src\\Back\\Core\\KbSports.Core\\KbSports.Core\\src",
+  "AutoMapper": {
+    "TotalFiles": 658,
+    "FilesWithReferences": 92,
+    "TotalProfiles": 1,
+    "TotalUsages": 129,
+    "Profiles": [
+      {
+        "ClassName": "MappingConfig",
+        "Namespace": "KbSports.Core.Application.Mapping",
+        "MappingCount": 24
+      }
+    ]
+  },
+  "MediatR": {
+    "TotalFiles": 658,
+    "FilesWithReferences": 226,
+    "TotalHandlers": 96,
+    "TotalNotificationHandlers": 0,
+    "TotalUsages": 88,
+    "Handlers": [
+      {
+        "ClassName": "AddAddressHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Addresses.AddAddress",
+        "RequestType": "AddAddressRequest",
+        "ResponseType": "AddAddressResponse"
+      },
+      {
+        "ClassName": "ChangeAddressHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Addresses.ChangeAddress",
+        "RequestType": "ChangeAddressRequest",
+        "ResponseType": "ChangeAddressResponse"
+      },
+      {
+        "ClassName": "RemoveAddressHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Addresses.RemoveAddress",
+        "RequestType": "RemoveAddressRequest",
+        "ResponseType": "RemoveAddressResponse"
+      },
+      {
+        "ClassName": "LogoutHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Auth.Logout",
+        "RequestType": "LogoutRequest",
+        "ResponseType": "LogoutResponse"
+      },
+      {
+        "ClassName": "RegisterHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Auth.Register",
+        "RequestType": "RegisterRequest",
+        "ResponseType": "RegisterResponse"
+      },
+      {
+        "ClassName": "ResetPasswordHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Auth.ResetPassword",
+        "RequestType": "ResetPasswordRequest",
+        "ResponseType": "ResetPasswordResponse"
+      },
+      {
+        "ClassName": "RevokeTokenHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Auth.RevokeToken",
+        "RequestType": "RevokeTokenRequest",
+        "ResponseType": "RevokeTokenResponse"
+      },
+      {
+        "ClassName": "AddCategoryHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Categories.AddCategory",
+        "RequestType": "AddCategoryRequest",
+        "ResponseType": "AddCategoryResponse"
+      },
+      {
+        "ClassName": "ChangeCategoryHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Categories.ChangeCategory",
+        "RequestType": "ChangeCategoryRequest",
+        "ResponseType": "ChangeCategoryResponse"
+      },
+      {
+        "ClassName": "RemoveCategoryHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Categories.RemoveCategory",
+        "RequestType": "RemoveCategoryRequest",
+        "ResponseType": "RemoveCategoryResponse"
+      },
+      {
+        "ClassName": "AddChampionshipCharacteristicHandler",
+        "Namespace": "KbSports.Core.Application.Commands.ChampionshipCharacteristics.AddChampionshipCharacteristic",
+        "RequestType": "AddChampionshipCharacteristicRequest",
+        "ResponseType": "AddChampionshipCharacteristicResponse"
+      },
+      {
+        "ClassName": "ChangeChampionshipCharacteristicHandler",
+        "Namespace": "KbSports.Core.Application.Commands.ChampionshipCharacteristics.ChangeChampionshipCharacteristic",
+        "RequestType": "ChangeChampionshipCharacteristicRequest",
+        "ResponseType": "ChangeChampionshipCharacteristicResponse"
+      },
+      {
+        "ClassName": "RemoveChampionshipCharacteristicHandler",
+        "Namespace": "KbSports.Core.Application.Commands.ChampionshipCharacteristics.RemoveChampionshipCharacteristic",
+        "RequestType": "RemoveChampionshipCharacteristicRequest",
+        "ResponseType": "RemoveChampionshipCharacteristicResponse"
+      },
+      {
+        "ClassName": "AddChampionshipHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Championships.AddChampionship",
+        "RequestType": "AddChampionshipRequest",
+        "ResponseType": "AddChampionshipResponse"
+      },
+      {
+        "ClassName": "ChangeChampionshipHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Championships.ChangeChampionship",
+        "RequestType": "ChangeChampionshipRequest",
+        "ResponseType": "ChangeChampionshipResponse"
+      },
+      {
+        "ClassName": "RemoveChampionshipHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Championships.RemoveChampionship",
+        "RequestType": "RemoveChampionshipRequest",
+        "ResponseType": "RemoveChampionshipResponse"
+      },
+      {
+        "ClassName": "AddChampionshipSeasonCharacteristicHandler",
+        "Namespace": "KbSports.Core.Application.Commands.ChampionshipSeasonCharacteristics.AddChampionshipSeasonCharacteristic",
+        "RequestType": "AddChampionshipSeasonCharacteristicRequest",
+        "ResponseType": "AddChampionshipSeasonCharacteristicResponse"
+      },
+      {
+        "ClassName": "AddChampionshipSeasonPhaseHandler",
+        "Namespace": "KbSports.Core.Application.Commands.ChampionshipSeasonPhases.AddChampionshipSeasonPhase",
+        "RequestType": "AddChampionshipSeasonPhaseRequest",
+        "ResponseType": "AddChampionshipSeasonPhaseResponse"
+      },
+      {
+        "ClassName": "ChangeChampionshipSeasonPhaseHandler",
+        "Namespace": "KbSports.Core.Application.Commands.ChampionshipSeasonPhases.ChangeChampionshipSeasonPhase",
+        "RequestType": "ChangeChampionshipSeasonPhaseRequest",
+        "ResponseType": "ChangeChampionshipSeasonPhaseResponse"
+      },
+      {
+        "ClassName": "RemoveChampionshipSeasonPhaseHandler",
+        "Namespace": "KbSports.Core.Application.Commands.ChampionshipSeasonPhases.RemoveChampionshipSeasonPhase",
+        "RequestType": "RemoveChampionshipSeasonPhaseRequest",
+        "ResponseType": "RemoveChampionshipSeasonPhaseResponse"
+      },
+      {
+        "ClassName": "AddChampionshipSeasonHandler",
+        "Namespace": "KbSports.Core.Application.Commands.ChampionshipSeasons.AddChampionshipSeason",
+        "RequestType": "AddChampionshipSeasonRequest",
+        "ResponseType": "AddChampionshipSeasonResponse"
+      },
+      {
+        "ClassName": "ChangeChampionshipSeasonHandler",
+        "Namespace": "KbSports.Core.Application.Commands.ChampionshipSeasons.ChangeChampionshipSeason",
+        "RequestType": "ChangeChampionshipSeasonRequest",
+        "ResponseType": "ChangeChampionshipSeasonResponse"
+      },
+      {
+        "ClassName": "RemoveChampionshipSeasonHandler",
+        "Namespace": "KbSports.Core.Application.Commands.ChampionshipSeasons.RemoveChampionshipSeason",
+        "RequestType": "RemoveChampionshipSeasonRequest",
+        "ResponseType": "RemoveChampionshipSeasonResponse"
+      },
+      {
+        "ClassName": "AddCharacteristicTypeHandler",
+        "Namespace": "KbSports.Core.Application.Commands.CharacteristicTypes.AddCharacteristicType",
+        "RequestType": "AddCharacteristicTypeRequest",
+        "ResponseType": "AddCharacteristicTypeResponse"
+      },
+      {
+        "ClassName": "ChangeCharacteristicTypeHandler",
+        "Namespace": "KbSports.Core.Application.Commands.CharacteristicTypes.ChangeCharacteristicType",
+        "RequestType": "ChangeCharacteristicTypeRequest",
+        "ResponseType": "ChangeCharacteristicTypeResponse"
+      },
+      {
+        "ClassName": "RemoveCharacteristicTypeHandler",
+        "Namespace": "KbSports.Core.Application.Commands.CharacteristicTypes.RemoveCharacteristicType",
+        "RequestType": "RemoveCharacteristicTypeRequest",
+        "ResponseType": "RemoveCharacteristicTypeResponse"
+      },
+      {
+        "ClassName": "AddClubCharacteristicHandler",
+        "Namespace": "KbSports.Core.Application.Commands.ClubCharacteristics.AddClubCharacteristic",
+        "RequestType": "AddClubCharacteristicRequest",
+        "ResponseType": "AddClubCharacteristicResponse"
+      },
+      {
+        "ClassName": "ChangeClubCharacteristicHandler",
+        "Namespace": "KbSports.Core.Application.Commands.ClubCharacteristics.ChangeClubCharacteristic",
+        "RequestType": "ChangeClubCharacteristicRequest",
+        "ResponseType": "ChangeClubCharacteristicResponse"
+      },
+      {
+        "ClassName": "RemoveClubCharacteristicHandler",
+        "Namespace": "KbSports.Core.Application.Commands.ClubCharacteristics.RemoveClubCharacteristic",
+        "RequestType": "RemoveClubCharacteristicRequest",
+        "ResponseType": "RemoveClubCharacteristicResponse"
+      },
+      {
+        "ClassName": "AddClubHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Clubs.AddClub",
+        "RequestType": "AddClubRequest",
+        "ResponseType": "AddClubResponse"
+      },
+      {
+        "ClassName": "ChangeClubHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Clubs.ChangeClub",
+        "RequestType": "ChangeClubRequest",
+        "ResponseType": "ChangeClubResponse"
+      },
+      {
+        "ClassName": "RemoveClubHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Clubs.RemoveClub",
+        "RequestType": "RemoveClubRequest",
+        "ResponseType": "RemoveClubResponse"
+      },
+      {
+        "ClassName": "AddCustomerHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Customers.AddCustomer",
+        "RequestType": "AddCustomerRequest",
+        "ResponseType": "AddCustomerResponse"
+      },
+      {
+        "ClassName": "AddCustomerCharacteristicHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Customers.AddCustomerCharacteristic",
+        "RequestType": "AddCustomerCharacteristicRequest",
+        "ResponseType": "AddCustomerCharacteristicResponse"
+      },
+      {
+        "ClassName": "ChangeCustomerHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Customers.ChangeCustomer",
+        "RequestType": "ChangeCustomerRequest",
+        "ResponseType": "ChangeCustomerResponse"
+      },
+      {
+        "ClassName": "RemoveCustomerHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Customers.RemoveCustomer",
+        "RequestType": "RemoveCustomerRequest",
+        "ResponseType": "RemoveCustomerResponse"
+      },
+      {
+        "ClassName": "RemoveCustomerCharacteristicHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Customers.RemoveCustomerCharacteristic",
+        "RequestType": "RemoveCustomerCharacteristicRequest",
+        "ResponseType": "RemoveCustomerCharacteristicResponse"
+      },
+      {
+        "ClassName": "UpdateCustomerCharacteristicHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Customers.UpdateCustomerCharacteristic",
+        "RequestType": "UpdateCustomerCharacteristicRequest",
+        "ResponseType": "UpdateCustomerCharacteristicResponse"
+      },
+      {
+        "ClassName": "AddMatchCharacteristicHandler",
+        "Namespace": "KbSports.Core.Application.Commands.MatchCharacteristics.AddMatchCharacteristic",
+        "RequestType": "AddMatchCharacteristicRequest",
+        "ResponseType": "AddMatchCharacteristicResponse"
+      },
+      {
+        "ClassName": "AddMatchHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Matches.AddMatch",
+        "RequestType": "AddMatchRequest",
+        "ResponseType": "AddMatchResponse"
+      },
+      {
+        "ClassName": "ChangeMatchHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Matches.ChangeMatch",
+        "RequestType": "ChangeMatchRequest",
+        "ResponseType": "ChangeMatchResponse"
+      },
+      {
+        "ClassName": "RemoveMatchHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Matches.RemoveMatch",
+        "RequestType": "RemoveMatchRequest",
+        "ResponseType": "RemoveMatchResponse"
+      },
+      {
+        "ClassName": "AddModalityHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Modalities.AddModality",
+        "RequestType": "AddModalityRequest",
+        "ResponseType": "AddModalityResponse"
+      },
+      {
+        "ClassName": "ChangeModalityHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Modalities.ChangeModality",
+        "RequestType": "ChangeModalityRequest",
+        "ResponseType": "ChangeModalityResponse"
+      },
+      {
+        "ClassName": "RemoveModalityHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Modalities.RemoveModality",
+        "RequestType": "RemoveModalityRequest",
+        "ResponseType": "RemoveModalityResponse"
+      },
+      {
+        "ClassName": "AddPaymentHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Payments.AddPayment",
+        "RequestType": "AddPaymentRequest",
+        "ResponseType": "AddPaymentResponse"
+      },
+      {
+        "ClassName": "ChangePaymentHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Payments.ChangePayment",
+        "RequestType": "ChangePaymentRequest",
+        "ResponseType": "ChangePaymentResponse"
+      },
+      {
+        "ClassName": "RemovePaymentHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Payments.RemovePayment",
+        "RequestType": "RemovePaymentRequest",
+        "ResponseType": "RemovePaymentResponse"
+      },
+      {
+        "ClassName": "AddPlaceCharacteristicHandler",
+        "Namespace": "KbSports.Core.Application.Commands.PlaceCharacteristics.AddPlaceCharacteristic",
+        "RequestType": "AddPlaceCharacteristicRequest",
+        "ResponseType": "AddPlaceCharacteristicResponse"
+      },
+      {
+        "ClassName": "ChangePlaceCharacteristicHandler",
+        "Namespace": "KbSports.Core.Application.Commands.PlaceCharacteristics.ChangePlaceCharacteristic",
+        "RequestType": "ChangePlaceCharacteristicRequest",
+        "ResponseType": "ChangePlaceCharacteristicResponse"
+      },
+      {
+        "ClassName": "RemovePlaceCharacteristicHandler",
+        "Namespace": "KbSports.Core.Application.Commands.PlaceCharacteristics.RemovePlaceCharacteristic",
+        "RequestType": "RemovePlaceCharacteristicRequest",
+        "ResponseType": "RemovePlaceCharacteristicResponse"
+      },
+      {
+        "ClassName": "AddPlaceHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Places.AddPlace",
+        "RequestType": "AddPlaceRequest",
+        "ResponseType": "AddPlaceResponse"
+      },
+      {
+        "ClassName": "ChangePlaceHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Places.ChangePlace",
+        "RequestType": "ChangePlaceRequest",
+        "ResponseType": "ChangePlaceResponse"
+      },
+      {
+        "ClassName": "RemovePlaceHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Places.RemovePlace",
+        "RequestType": "RemovePlaceRequest",
+        "ResponseType": "RemovePlaceResponse"
+      },
+      {
+        "ClassName": "AddPlanHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Plans.AddPlan",
+        "RequestType": "AddPlanRequest",
+        "ResponseType": "AddPlanResponse"
+      },
+      {
+        "ClassName": "ChangePlanHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Plans.ChangePlan",
+        "RequestType": "ChangePlanRequest",
+        "ResponseType": "ChangePlanResponse"
+      },
+      {
+        "ClassName": "RemovePlanHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Plans.RemovePlan",
+        "RequestType": "RemovePlanRequest",
+        "ResponseType": "RemovePlanResponse"
+      },
+      {
+        "ClassName": "AddUserHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Users.AddUser",
+        "RequestType": "AddUserRequest",
+        "ResponseType": "AddUserResponse"
+      },
+      {
+        "ClassName": "ChangeUserHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Users.ChangeUser",
+        "RequestType": "ChangeUserRequest",
+        "ResponseType": "ChangeUserResponse"
+      },
+      {
+        "ClassName": "RemoveUserHandler",
+        "Namespace": "KbSports.Core.Application.Commands.Users.RemoveUser",
+        "RequestType": "RemoveUserRequest",
+        "ResponseType": "RemoveUserResponse"
+      },
+      {
+        "ClassName": "GetAddressHandler",
+        "Namespace": "KbSports.Core.Application.Queries.Addresses.GetAddress",
+        "RequestType": "GetAddressRequest",
+        "ResponseType": "GetAddressResponse"
+      },
+      {
+        "ClassName": "GetAddressByKeyHandler",
+        "Namespace": "KbSports.Core.Application.Queries.Addresses.GetAddressByKey",
+        "RequestType": "GetAddressByKeyRequest",
+        "ResponseType": "GetAddressByKeyResponse"
+      },
+      {
+        "ClassName": "GetCurrentUserHandler",
+        "Namespace": "KbSports.Core.Application.Queries.Auth.GetCurrentUser",
+        "RequestType": "GetCurrentUserRequest",
+        "ResponseType": "GetCurrentUserResponse"
+      },
+      {
+        "ClassName": "GetCategoryHandler",
+        "Namespace": "KbSports.Core.Application.Queries.Categories.GetCategory",
+        "RequestType": "GetCategoryRequest",
+        "ResponseType": "GetCategoryResponse"
+      },
+      {
+        "ClassName": "GetCategoryByKeyHandler",
+        "Namespace": "KbSports.Core.Application.Queries.Categories.GetCategoryByKey",
+        "RequestType": "GetCategoryByKeyRequest",
+        "ResponseType": "GetCategoryByKeyResponse"
+      },
+      {
+        "ClassName": "GetChampionshipCharacteristicHandler",
+        "Namespace": "KbSports.Core.Application.Queries.ChampionshipCharacteristics.GetChampionshipCharacteristic",
+        "RequestType": "GetChampionshipCharacteristicRequest",
+        "ResponseType": "GetChampionshipCharacteristicResponse"
+      },
+      {
+        "ClassName": "GetChampionshipCharacteristicByKeyHandler",
+        "Namespace": "KbSports.Core.Application.Queries.ChampionshipCharacteristics.GetChampionshipCharacteristicByKey",
+        "RequestType": "GetChampionshipCharacteristicByKeyRequest",
+        "ResponseType": "GetChampionshipCharacteristicByKeyResponse"
+      },
+      {
+        "ClassName": "GetChampionshipHandler",
+        "Namespace": "KbSports.Core.Application.Queries.Championships.GetChampionship",
+        "RequestType": "GetChampionshipRequest",
+        "ResponseType": "GetChampionshipResponse"
+      },
+      {
+        "ClassName": "GetChampionshipByKeyHandler",
+        "Namespace": "KbSports.Core.Application.Queries.Championships.GetChampionshipByKey",
+        "RequestType": "GetChampionshipByKeyRequest",
+        "ResponseType": "GetChampionshipByKeyResponse"
+      },
+      {
+        "ClassName": "GetChampionshipSeasonPhaseHandler",
+        "Namespace": "KbSports.Core.Application.Queries.ChampionshipSeasonPhases.GetChampionshipSeasonPhase",
+        "RequestType": "GetChampionshipSeasonPhaseRequest",
+        "ResponseType": "GetChampionshipSeasonPhaseResponse"
+      },
+      {
+        "ClassName": "GetChampionshipSeasonPhaseByKeyHandler",
+        "Namespace": "KbSports.Core.Application.Queries.ChampionshipSeasonPhases.GetChampionshipSeasonPhaseByKey",
+        "RequestType": "GetChampionshipSeasonPhaseByKeyRequest",
+        "ResponseType": "GetChampionshipSeasonPhaseByKeyResponse"
+      },
+      {
+        "ClassName": "GetChampionshipSeasonHandler",
+        "Namespace": "KbSports.Core.Application.Queries.ChampionshipSeasons.GetChampionshipSeason",
+        "RequestType": "GetChampionshipSeasonRequest",
+        "ResponseType": "GetChampionshipSeasonResponse"
+      },
+      {
+        "ClassName": "GetChampionshipSeasonByKeyHandler",
+        "Namespace": "KbSports.Core.Application.Queries.ChampionshipSeasons.GetChampionshipSeasonByKey",
+        "RequestType": "GetChampionshipSeasonByKeyRequest",
+        "ResponseType": "GetChampionshipSeasonByKeyResponse"
+      },
+      {
+        "ClassName": "GetCharacteristicTypeHandler",
+        "Namespace": "KbSports.Core.Application.Queries.CharacteristicTypes.GetCharacteristicType",
+        "RequestType": "GetCharacteristicTypeRequest",
+        "ResponseType": "GetCharacteristicTypeResponse"
+      },
+      {
+        "ClassName": "GetCharacteristicTypeByKeyHandler",
+        "Namespace": "KbSports.Core.Application.Queries.CharacteristicTypes.GetCharacteristicTypeByKey",
+        "RequestType": "GetCharacteristicTypeByKeyRequest",
+        "ResponseType": "GetCharacteristicTypeByKeyResponse"
+      },
+      {
+        "ClassName": "GetClubCharacteristicHandler",
+        "Namespace": "KbSports.Core.Application.Queries.ClubCharacteristics.GetClubCharacteristic",
+        "RequestType": "GetClubCharacteristicRequest",
+        "ResponseType": "GetClubCharacteristicResponse"
+      },
+      {
+        "ClassName": "GetClubCharacteristicByKeyHandler",
+        "Namespace": "KbSports.Core.Application.Queries.ClubCharacteristics.GetClubCharacteristicByKey",
+        "RequestType": "GetClubCharacteristicByKeyRequest",
+        "ResponseType": "GetClubCharacteristicByKeyResponse"
+      },
+      {
+        "ClassName": "GetClubHandler",
+        "Namespace": "KbSports.Core.Application.Queries.Clubs.GetClub",
+        "RequestType": "GetClubRequest",
+        "ResponseType": "GetClubResponse"
+      },
+      {
+        "ClassName": "GetClubByKeyHandler",
+        "Namespace": "KbSports.Core.Application.Queries.Clubs.GetClubByKey",
+        "RequestType": "GetClubByKeyRequest",
+        "ResponseType": "GetClubByKeyResponse"
+      },
+      {
+        "ClassName": "GetCustomerHandler",
+        "Namespace": "KbSports.Core.Application.Queries.Customers.GetCustomer",
+        "RequestType": "GetCustomerRequest",
+        "ResponseType": "GetCustomerResponse"
+      },
+      {
+        "ClassName": "GetCustomerByKeyHandler",
+        "Namespace": "KbSports.Core.Application.Queries.Customers.GetCustomerByKey",
+        "RequestType": "GetCustomerByKeyRequest",
+        "ResponseType": "GetCustomerByKeyResponse"
+      },
+      {
+        "ClassName": "GetCustomerCharacteristicsHandler",
+        "Namespace": "KbSports.Core.Application.Queries.Customers.GetCustomerCharacteristics",
+        "RequestType": "GetCustomerCharacteristicsRequest",
+        "ResponseType": "GetCustomerCharacteristicsResponse"
+      },
+      {
+        "ClassName": "GetMatchHandler",
+        "Namespace": "KbSports.Core.Application.Queries.Matches.GetMatch",
+        "RequestType": "GetMatchRequest",
+        "ResponseType": "GetMatchResponse"
+      },
+      {
+        "ClassName": "GetMatchByKeyHandler",
+        "Namespace": "KbSports.Core.Application.Queries.Matches.GetMatchByKey",
+        "RequestType": "GetMatchByKeyRequest",
+        "ResponseType": "GetMatchByKeyResponse"
+      },
+      {
+        "ClassName": "GetModalityHandler",
+        "Namespace": "KbSports.Core.Application.Queries.Modalities.GetModality",
+        "RequestType": "GetModalityRequest",
+        "ResponseType": "GetModalityResponse"
+      },
+      {
+        "ClassName": "GetModalityByKeyHandler",
+        "Namespace": "KbSports.Core.Application.Queries.Modalities.GetModalityByKey",
+        "RequestType": "GetModalityByKeyRequest",
+        "ResponseType": "GetModalityByKeyResponse"
+      },
+      {
+        "ClassName": "GetPaymentHandler",
+        "Namespace": "KbSports.Core.Application.Queries.Payments.GetPayment",
+        "RequestType": "GetPaymentRequest",
+        "ResponseType": "GetPaymentResponse"
+      },
+      {
+        "ClassName": "GetPaymentByKeyHandler",
+        "Namespace": "KbSports.Core.Application.Queries.Payments.GetPaymentByKey",
+        "RequestType": "GetPaymentByKeyRequest",
+        "ResponseType": "GetPaymentByKeyResponse"
+      },
+      {
+        "ClassName": "GetPlaceCharacteristicHandler",
+        "Namespace": "KbSports.Core.Application.Queries.PlaceCharacteristics.GetPlaceCharacteristic",
+        "RequestType": "GetPlaceCharacteristicRequest",
+        "ResponseType": "GetPlaceCharacteristicResponse"
+      },
+      {
+        "ClassName": "GetPlaceCharacteristicByKeyHandler",
+        "Namespace": "KbSports.Core.Application.Queries.PlaceCharacteristics.GetPlaceCharacteristicByKey",
+        "RequestType": "GetPlaceCharacteristicByKeyRequest",
+        "ResponseType": "GetPlaceCharacteristicByKeyResponse"
+      },
+      {
+        "ClassName": "GetPlaceHandler",
+        "Namespace": "KbSports.Core.Application.Queries.Places.GetPlace",
+        "RequestType": "GetPlaceRequest",
+        "ResponseType": "GetPlaceResponse"
+      },
+      {
+        "ClassName": "GetPlaceByKeyHandler",
+        "Namespace": "KbSports.Core.Application.Queries.Places.GetPlaceByKey",
+        "RequestType": "GetPlaceByKeyRequest",
+        "ResponseType": "GetPlaceByKeyResponse"
+      },
+      {
+        "ClassName": "GetPlanHandler",
+        "Namespace": "KbSports.Core.Application.Queries.Plans.GetPlan",
+        "RequestType": "GetPlanRequest",
+        "ResponseType": "GetPlanResponse"
+      },
+      {
+        "ClassName": "GetPlanByKeyHandler",
+        "Namespace": "KbSports.Core.Application.Queries.Plans.GetPlanByKey",
+        "RequestType": "GetPlanByKeyRequest",
+        "ResponseType": "GetPlanByKeyResponse"
+      },
+      {
+        "ClassName": "GetUserHandler",
+        "Namespace": "KbSports.Core.Application.Queries.Users.GetUser",
+        "RequestType": "GetUserRequest",
+        "ResponseType": "GetUserResponse"
+      },
+      {
+        "ClassName": "GetUserByKeyHandler",
+        "Namespace": "KbSports.Core.Application.Queries.Users.GetUserByKey",
+        "RequestType": "GetUserByKeyRequest",
+        "ResponseType": "GetUserByKeyResponse"
+      }
+    ],
+    "NotificationHandlers": []
+  }
+}
